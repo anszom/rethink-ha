@@ -1,6 +1,6 @@
 # Add-on identity
 name: Rethink
-version: 'dev'
+version: '0.1.0'
 slug: rethink
 description: Cloud-free support for LG ThinQ appliances.
 url: https://github.com/anszom/rethink
@@ -10,7 +10,7 @@ arch:
     - armv7
 
 # Container image & init
-image: ghcr.io/anszom/rethink:dev
+image: ghcr.io/anszom/rethink
 init: true
 
 # Selects add-on mode in rethink-cloud - it configures itself from the Supervisor
